@@ -11,7 +11,7 @@ CLASS_LABELS = ['Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_
 
 
 def load_model():
-    model  = tf.keras.models.load_model('F:/tensorls/plant disease using streamlit/models/best_model_50_fullset_multiple.h5')
+    model  = tf.keras.models.load_model('./models/best_model_50_fullset_multiple.h5')
     return model
 
 with st.spinner('model is being loaded'):
